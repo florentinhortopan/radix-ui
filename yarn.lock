@@ -6904,6 +6904,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axe-core@npm:^4.8.2":
+  version: 4.8.2
+  resolution: "axe-core@npm:4.8.2"
+  checksum: 8c19f507dabfcb8514e4280c7fc66e85143be303ddb57ec9f119338021228dc9b80560993938003837bda415fde7c07bba3a96560008ffa5f4145a248ed8f5fe
+  languageName: node
+  linkType: hard
+
 "axios@npm:^0.21.1":
   version: 0.21.4
   resolution: "axios@npm:0.21.4"
@@ -8589,6 +8596,16 @@ __metadata:
   version: 1.0.1
   resolution: "cyclist@npm:1.0.1"
   checksum: 3cc2fdeb358599ca0ea96f5ecf2fc530ccab7ed1f8aa1a894aebfacd2009281bd7380cb9b30db02a18cdd00b3ed1d7ce81a3b11fe56e33a6a0fe4424dc592fbe
+  languageName: node
+  linkType: hard
+
+"cypress-axe@npm:0.14.0":
+  version: 0.14.0
+  resolution: "cypress-axe@npm:0.14.0"
+  peerDependencies:
+    axe-core: ^3 || ^4
+    cypress: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
+  checksum: 72c639502e2c2ed0f084453b9fa6c77bf5af736e8904600887b7c64e7edbd833e7d2de2b290d6149cc7805b5e08ce2fcc4206d0ee85b31ae7b4cfd02d582ed3c
   languageName: node
   linkType: hard
 
@@ -15531,9 +15548,11 @@ fsevents@~2.1.2:
     "@types/react-test-renderer": ^18.0.0
     "@typescript-eslint/eslint-plugin": ^5.19.0
     "@typescript-eslint/parser": ^5.19.0
+    axe-core: ^4.8.2
     babel-eslint: ^10.1.0
     babel-loader: ^8.2.4
     cypress: ^8.0.0
+    cypress-axe: 0.14.0
     cypress-real-events: ^1.5.0
     eslint: ^7.32.0
     eslint-config-react-app: ^6.0.0
