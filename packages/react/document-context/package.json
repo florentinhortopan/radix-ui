@@ -1,6 +1,6 @@
 {
-  "name": "@radix-ui/react-select",
-  "version": "2.2.4",
+  "name": "@radix-ui/react-document-context",
+  "version": "0.0.0",
   "license": "MIT",
   "source": "./src/index.ts",
   "main": "./src/index.ts",
@@ -34,28 +34,7 @@
     "build": "radix-build"
   },
   "dependencies": {
-    "@radix-ui/number": "workspace:*",
-    "@radix-ui/primitive": "workspace:*",
-    "@radix-ui/react-collection": "workspace:*",
-    "@radix-ui/react-compose-refs": "workspace:*",
-    "@radix-ui/react-context": "workspace:*",
-    "@radix-ui/react-direction": "workspace:*",
-    "@radix-ui/react-dismissable-layer": "workspace:*",
-    "@radix-ui/react-document-context": "workspace:*",
-    "@radix-ui/react-focus-guards": "workspace:*",
-    "@radix-ui/react-focus-scope": "workspace:*",
-    "@radix-ui/react-id": "workspace:*",
-    "@radix-ui/react-popper": "workspace:*",
-    "@radix-ui/react-portal": "workspace:*",
-    "@radix-ui/react-primitive": "workspace:*",
-    "@radix-ui/react-slot": "workspace:*",
-    "@radix-ui/react-use-callback-ref": "workspace:*",
-    "@radix-ui/react-use-controllable-state": "workspace:*",
-    "@radix-ui/react-use-layout-effect": "workspace:*",
-    "@radix-ui/react-use-previous": "workspace:*",
-    "@radix-ui/react-visually-hidden": "workspace:*",
-    "aria-hidden": "^1.2.4",
-    "react-remove-scroll": "^2.6.3"
+    "@radix-ui/react-use-is-hydrated": "workspace:*"
   },
   "devDependencies": {
     "@repo/builder": "workspace:*",
